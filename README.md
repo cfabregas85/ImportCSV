@@ -1,0 +1,2 @@
+# ImportCSV
+Import CSV   ASP Core SqlServer  Dependency Injection  This application import CSV files information into an SQL DataBase. The Origin of the data will be a folder located on C:\CSV\  Before import the data into the database the application will check:  If the file name format is correct.  If the date in the file name is valid.  Duplicates.  Discard any record with FirstName "John".  During the process, the application will Log all possible error in formatting or truncation the file could have.
